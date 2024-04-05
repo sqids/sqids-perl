@@ -1,0 +1,29 @@
+name: test
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        perl:
+          [
+            "5.34",
+            "5.30",
+            "5.26",
+            "5.22",
+            "5.18",
+            "5.14",
+            "5.10"
+          ]
+    name: Perl ${{ matrix.perl }}
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup perl
+        uses: shogo82148/actions-setup-perl@v1
+        with:
+          perl-version: ${{ matrix.perl }}
+      - name: Install dependencies
+        run: cpanm -nq --installdeps --with-develop --with-recommends .
+      - name: Run test
+        run: prove -lr t
+
