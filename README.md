@@ -76,7 +76,7 @@ as a hashref or a list (using [Class::Tiny](https://metacpan.org/pod/Class%3A%3A
     You can randomize IDs by providing a custom alphabet:
 
         my $sqids = Sqids->new({
-          alphabet: 'FxnXM1kBN6cuhsAvjW3Co7l2RePyY8DwaU04Tzt9fHQrqSVKdpimLGIJOgb5ZE',
+          alphabet => 'FxnXM1kBN6cuhsAvjW3Co7l2RePyY8DwaU04Tzt9fHQrqSVKdpimLGIJOgb5ZE',
         });
         my $id = $sqids->encode(1, 2, 3); # "B4aajs"
         my $numbers = $sqids->decode($id); # [1, 2, 3]

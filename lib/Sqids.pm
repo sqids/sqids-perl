@@ -13,7 +13,7 @@ use Class::Tiny {
     blocklist => sub { Sqids::Constants::DEFAULT_BLOCKLIST },
 };
 
-our $VERSION = "0.02";
+our $VERSION = "0.03";
 
 sub BUILD {
     my ($self, $args) = @_;

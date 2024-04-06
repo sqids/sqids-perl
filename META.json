@@ -66,7 +66,7 @@
          "web" : "https://github.com/sqids/sqids-perl"
       }
    },
-   "version" : "0.02",
+   "version" : "0.03",
    "x_contributors" : [
       "Ivan Akimov <sqids@fossfox.com>"
    ],
