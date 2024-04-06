@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/dracos/sqids-perl/actions/workflows/test.yml/badge.svg)](https://github.com/dracos/sqids-perl/actions)
+[![Actions Status](https://github.com/sqids/sqids-perl/actions/workflows/test.yml/badge.svg)](https://github.com/sqids/sqids-perl/actions)
 # NAME
 
 Sqids - generate short unique identifiers from numbers
@@ -22,8 +22,8 @@ Sqids - generate short unique identifiers from numbers
 
 # DESCRIPTION
 
-[Sqids](https://sqids.org/perl) (\*pronounced "squids"\*) is a small
-library that lets you \*\*generate unique IDs from numbers\*\*. It's good for link
+[Sqids](https://sqids.org/perl) (_pronounced "squids"_) is a small
+library that lets you **generate unique IDs from numbers**. It's good for link
 shortening, fast & URL-safe ID generation and decoding back into numbers for
 quicker database lookups.
 

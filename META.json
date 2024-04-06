@@ -57,16 +57,16 @@
    "release_status" : "unstable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/dracos/sqids-perl/issues"
+         "web" : "https://github.com/sqids/sqids-perl/issues"
       },
-      "homepage" : "https://github.com/dracos/sqids-perl",
+      "homepage" : "https://github.com/sqids/sqids-perl",
       "repository" : {
          "type" : "git",
-         "url" : "https://github.com/dracos/sqids-perl.git",
-         "web" : "https://github.com/dracos/sqids-perl"
+         "url" : "https://github.com/sqids/sqids-perl.git",
+         "web" : "https://github.com/sqids/sqids-perl"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_contributors" : [
       "Ivan Akimov <sqids@fossfox.com>"
    ],

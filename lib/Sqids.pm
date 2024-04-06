@@ -13,7 +13,7 @@ use Class::Tiny {
     blocklist => sub { Sqids::Constants::DEFAULT_BLOCKLIST },
 };
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 sub BUILD {
     my ($self, $args) = @_;
@@ -284,8 +284,8 @@ Sqids - generate short unique identifiers from numbers
 
 =head1 DESCRIPTION
 
-L<Sqids|https://sqids.org/perl> (*pronounced "squids"*) is a small
-library that lets you **generate unique IDs from numbers**. It's good for link
+L<Sqids|https://sqids.org/perl> (I<pronounced "squids">) is a small
+library that lets you B<generate unique IDs from numbers>. It's good for link
 shortening, fast & URL-safe ID generation and decoding back into numbers for
 quicker database lookups.
 
@@ -293,19 +293,19 @@ Features:
 
 =over 4
 
-=item B<Encode multiple numbers> - generate short IDs from one or several non-negative numbers
+=item * B<Encode multiple numbers> - generate short IDs from one or several non-negative numbers
 
-=item B<Quick decoding> - easily decode IDs back into numbers
+=item * B<Quick decoding> - easily decode IDs back into numbers
 
-=item B<Unique IDs> - generate unique IDs by shuffling the alphabet once
+=item * B<Unique IDs> - generate unique IDs by shuffling the alphabet once
 
-=item B<ID padding> - provide minimum length to make IDs more uniform
+=item * B<ID padding> - provide minimum length to make IDs more uniform
 
-=item B<URL safe> - auto-generated IDs do not contain common profanity
+=item * B<URL safe> - auto-generated IDs do not contain common profanity
 
-=item B<Randomized output> - Sequential input provides nonconsecutive IDs
+=item * B<Randomized output> - Sequential input provides nonconsecutive IDs
 
-=item B<Many implementations> - Support for L<40+ programming languages|https://sqids.org/>
+=item * B<Many implementations> - Support for L<40+ programming languages|https://sqids.org/>
 
 =back
 
@@ -315,11 +315,11 @@ Good for:
 
 =over 4
 
-=item Generating IDs for public URLs (eg: link shortening)
+=item * Generating IDs for public URLs (eg: link shortening)
 
-=item Generating IDs for internal systems (eg: event tracking)
+=item * Generating IDs for internal systems (eg: event tracking)
 
-=item Decoding for quicker database lookups (eg: by primary keys)
+=item * Decoding for quicker database lookups (eg: by primary keys)
 
 =back
 
@@ -327,9 +327,9 @@ Not good for:
 
 =over 4
 
-=item Sensitive data (this is not an encryption library)
+=item * Sensitive data (this is not an encryption library)
 
-=item User IDs (can be decoded revealing user count)
+=item * User IDs (can be decoded revealing user count)
 
 =back
 
