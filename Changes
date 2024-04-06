@@ -2,5 +2,7 @@ Revision history for Perl extension Sqids
 
 {{$NEXT}}
 
+0.01 2024-04-06T10:42:51Z
+
     - initial version, working from reference spec
 
