@@ -361,7 +361,7 @@ as a hashref or a list (using L<Class::Tiny>):
 You can randomize IDs by providing a custom alphabet:
 
     my $sqids = Sqids->new({
-      alphabet: 'FxnXM1kBN6cuhsAvjW3Co7l2RePyY8DwaU04Tzt9fHQrqSVKdpimLGIJOgb5ZE',
+      alphabet => 'FxnXM1kBN6cuhsAvjW3Co7l2RePyY8DwaU04Tzt9fHQrqSVKdpimLGIJOgb5ZE',
     });
     my $id = $sqids->encode(1, 2, 3); # "B4aajs"
     my $numbers = $sqids->decode($id); # [1, 2, 3]
