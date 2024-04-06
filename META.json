@@ -42,11 +42,14 @@
       },
       "runtime" : {
          "requires" : {
+            "Carp" : "0",
+            "Class::Tiny" : "0",
             "perl" : "5.008001"
          }
       },
       "test" : {
          "requires" : {
+            "Test::Exception" : "0",
             "Test::More" : "0.98"
          }
       }
